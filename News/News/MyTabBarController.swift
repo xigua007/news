@@ -15,7 +15,12 @@ class MyTabBarController: UITabBarController {
         let tabbar = UITabBar.appearance();
         tabbar.tintColor = UIColor(red: 245/255.0, green: 90/255.0, blue: 93/255.0, alpha: 1.0);
         addChildViewControllers();
-
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(tabBar.subviews);
     }
     
     func addChildViewControllers(){
@@ -26,6 +31,8 @@ class MyTabBarController: UITabBarController {
         setChildViewController(HuoshanViewController(), title: "小视频", imageName: "huoshan_tabbar_32x32_", selectedImageName: "huoshan_tabbar_press_32x32_");
         
         setChildViewController(MineViewController(), title: "我的", imageName: "mine_tabbar_32x32_", selectedImageName: "mine_tabbar_press_32x32_");
+        
+        setValue(MyTabBar(), forKey: "tabBar");//KVC设置readonly属性
     }
     
     func setChildViewController(_ childVC : UIViewController, title:String, imageName:String, selectedImageName:String){

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16844F0522DEBB0B0033878C /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16844F0422DEBB0B0033878C /* MyTabBar.swift */; };
 		16C19BDB22DE9F1D00AD6691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C19BDA22DE9F1D00AD6691 /* AppDelegate.swift */; };
 		16C19BDD22DE9F1D00AD6691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C19BDC22DE9F1D00AD6691 /* ViewController.swift */; };
 		16C19BE022DE9F1D00AD6691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C19BDE22DE9F1D00AD6691 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16844F0422DEBB0B0033878C /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 		16C19BD722DE9F1D00AD6691 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C19BDA22DE9F1D00AD6691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16C19BDC22DE9F1D00AD6691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				16C19BE322DE9F1F00AD6691 /* LaunchScreen.storyboard */,
 				16C19BE622DE9F1F00AD6691 /* Info.plist */,
 				16C19C0822DEA17C00AD6691 /* MyTabBarController.swift */,
+				16844F0422DEBB0B0033878C /* MyTabBar.swift */,
 				16C19C0C22DEA3F300AD6691 /* HomeViewController.swift */,
 				16C19C0E22DEA3FE00AD6691 /* VideoViewController.swift */,
 				16C19C1022DEA40800AD6691 /* HuoshanViewController.swift */,
@@ -279,6 +282,7 @@
 				16C19C0F22DEA3FE00AD6691 /* VideoViewController.swift in Sources */,
 				16C19C1322DEA41100AD6691 /* MineViewController.swift in Sources */,
 				16C19C1122DEA40800AD6691 /* HuoshanViewController.swift in Sources */,
+				16844F0522DEBB0B0033878C /* MyTabBar.swift in Sources */,
 				16C19C0B22DEA19B00AD6691 /* MyNavigationController.swift in Sources */,
 				16C19BDB22DE9F1D00AD6691 /* AppDelegate.swift in Sources */,
 				16C19C0922DEA17C00AD6691 /* MyTabBarController.swift in Sources */,
